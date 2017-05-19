@@ -1,87 +1,74 @@
 {
-  "version": "2.0.0",
-  "name": "openstack-wrapper",
-  "description": "A simple js wrapper for the Openstack APIs",
-  "contributors": [
-    {
-      "name": "bannedinsweden",
-      "email": "npm@jasonrobinson.info"
-    },
-    {
-      "name": "bnewby",
-      "email": "brnewby602@gmail.com"
-    },
-    {
-      "name": "pchavan",
-      "email": "priyankachavan88@gmail.com"
-    },
-    {
-      "name": "vincent99",
-      "email": "vincent@rancher.com"
-    }
-  ],
-  "license": "MIT",
-  "homepage": "http://github.com/godaddy/node-openstack-wrapper",
-  "keywords": [
-    "openstack",
-    "keystone",
-    "nova",
-    "neutron",
-    "glance"
-  ],
-  "bugs": {
-    "url": "http://github.com/godaddy/node-openstack-wrapper/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/godaddy/node-openstack-wrapper.git"
-  },
-  "dependencies": {
-    "request": "~2"
-  },
-  "devDependencies": {
-    "nodeunit": "~0.9"
-  },
-  "main": "./index.js",
-  "scripts": {
-    "test": "./node_modules/nodeunit/bin/nodeunit ./test"
-  },
-  "gitHead": "ba2e0d6bdd001448d030f25daf2a7578fc1036d2",
-  "_id": "openstack-wrapper@1.4.6",
-  "_shasum": "68dbe1b045d0cfc813bcd453da442164cf5947b5",
-  "_from": "openstack-wrapper@1.4.6",
-  "_npmVersion": "2.15.8",
-  "_nodeVersion": "4.4.7",
-  "_npmUser": {
-    "name": "bnewby",
-    "email": "brnewby602@gmail.com"
-  },
-  "dist": {
-    "shasum": "68dbe1b045d0cfc813bcd453da442164cf5947b5",
-    "tarball": "https://registry.npmjs.org/openstack-wrapper/-/openstack-wrapper-1.4.6.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "bannedinsweden",
-      "email": "npm@jasonrobinson.info"
-    },
-    {
-      "name": "bnewby",
-      "email": "brnewby602@gmail.com"
-    },
-    {
-      "name": "pchavan",
-      "email": "priyankachavan88@gmail.com"
-    },
-    {
-      "name": "vincent99",
-      "email": "vincent@rancher.com"
-    }
-  ],
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/openstack-wrapper-1.4.6.tgz_1487004875766_0.7516751354560256"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/openstack-wrapper/-/openstack-wrapper-1.4.6.tgz"
+	"version": "2.0.0",
+	"name": "openstack-wrapper",
+	"description": "A simple js wrapper for the Openstack APIs",
+	"contributors": [
+		{
+			"name": "bannedinsweden",
+			"email": "npm@jasonrobinson.info"
+		},
+		{
+			"name": "bnewby",
+			"email": "brnewby602@gmail.com"
+		},
+		{
+			"name": "pchavan",
+			"email": "priyankachavan88@gmail.com"
+		},
+		{
+			"name": "vincent99",
+			"email": "vincent@rancher.com"
+		},
+		{
+			"name": "kdm",
+			"email": "kennygprs@gmail.com"
+		}
+	],
+	"license": "MIT",
+	"homepage": "http://github.com/kmalinich/node-openstack-wrapper",
+	"keywords": [
+		"openstack",
+		"keystone",
+		"nova",
+		"neutron",
+		"glance"
+	],
+	"bugs": {
+		"url": "http://github.com/kmalinich/node-openstack-wrapper/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kmalinich/node-openstack-wrapper.git"
+	},
+	"dependencies": {
+		"request": "~2"
+	},
+	"devDependencies": {
+		"nodeunit": "~0.9"
+	},
+	"main": "./index.js",
+	"scripts": {
+		"test": "./node_modules/nodeunit/bin/nodeunit ./test"
+	},
+	"_npmVersion": "4.6.1",
+	"_nodeVersion": "7.9.0",
+	"maintainers": [
+		{
+			"name": "bannedinsweden",
+			"email": "npm@jasonrobinson.info"
+		},
+		{
+			"name": "bnewby",
+			"email": "brnewby602@gmail.com"
+		},
+		{
+			"name": "pchavan",
+			"email": "priyankachavan88@gmail.com"
+		},
+		{
+			"name": "vincent99",
+			"email": "vincent@rancher.com"
+		}
+	],
+	"directories": {}
 }
