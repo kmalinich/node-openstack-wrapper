@@ -38,7 +38,7 @@ function getSimpleProject(username, password, project_id, keystone_url, callback
 			for (n = 0; n < catalog_array.length; n++) {
 				// ELS Puppet sometimes screws up Keystone and puts in duplicate service entries
 				// that have no endpoints.. ignore these.
-				if(!catalog_array[n].endpoints || !catalog_array[n].endpoints.length) {
+				if (!catalog_array[n].endpoints || !catalog_array[n].endpoints.length) {
 					continue;
 				}
 
@@ -86,4 +86,4 @@ module.exports = {
 	Neutron          : Neutron,
 	Nova             : Nova,
 	getSimpleProject : getSimpleProject
-}
+};

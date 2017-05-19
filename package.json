@@ -50,8 +50,6 @@
 	"scripts": {
 		"test": "./node_modules/nodeunit/bin/nodeunit ./test"
 	},
-	"_npmVersion": "4.6.1",
-	"_nodeVersion": "7.9.0",
 	"maintainers": [
 		{
 			"name": "bannedinsweden",
@@ -69,6 +67,5 @@
 			"name": "vincent99",
 			"email": "vincent@rancher.com"
 		}
-	],
-	"directories": {}
+	]
 }
