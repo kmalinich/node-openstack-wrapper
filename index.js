@@ -47,7 +47,7 @@ function getSimpleProject(username, password, project_id, keystone_url, callback
 
 				for (j = 0; j < endpoints_array.length; j++) {
 					if (endpoints_array[j].interface == 'public') {
-						endpoints_array[j].url = endpoints_array[j].url.replace(/\/$/, "");//yank any trailing /'s,
+						endpoints_array[j].url = endpoints_array[j].url.replace(/\/$/, '');// yank any trailing /'s,
 
 						if (endpoint_type == 'image') {
 							// we have to add the v2 to the end to get the most current functionality
@@ -85,5 +85,5 @@ module.exports = {
 	Keystone         : Keystone,
 	Neutron          : Neutron,
 	Nova             : Nova,
-	getSimpleProject : getSimpleProject
+	getSimpleProject : getSimpleProject,
 };
