@@ -1,30 +1,36 @@
 {
-	"version": "2.0.0",
-	"name": "openstack-wrapper",
-	"description": "A simple js wrapper for the Openstack APIs",
+	"bugs": {
+		"url": "http://github.com/kmalinich/node-openstack-wrapper/issues"
+	},
 	"contributors": [
 		{
-			"name": "bannedinsweden",
-			"email": "npm@jasonrobinson.info"
+			"email": "npm@jasonrobinson.info",
+			"name": "bannedinsweden"
 		},
 		{
-			"name": "bnewby",
-			"email": "brnewby602@gmail.com"
+			"email": "brnewby602@gmail.com",
+			"name": "bnewby"
 		},
 		{
-			"name": "pchavan",
-			"email": "priyankachavan88@gmail.com"
+			"email": "priyankachavan88@gmail.com",
+			"name": "pchavan"
 		},
 		{
-			"name": "vincent99",
-			"email": "vincent@rancher.com"
+			"email": "vincent@rancher.com",
+			"name": "vincent99"
 		},
 		{
-			"name": "kdm",
-			"email": "kennygprs@gmail.com"
+			"email": "kennygprs@gmail.com",
+			"name": "kdm"
 		}
 	],
-	"license": "MIT",
+	"dependencies": {
+		"request": "~2"
+	},
+	"description": "A simple js wrapper for the Openstack APIs",
+	"devDependencies": {
+		"nodeunit": "~0.11"
+	},
 	"homepage": "http://github.com/kmalinich/node-openstack-wrapper",
 	"keywords": [
 		"openstack",
@@ -33,39 +39,33 @@
 		"neutron",
 		"glance"
 	],
-	"bugs": {
-		"url": "http://github.com/kmalinich/node-openstack-wrapper/issues"
-	},
+	"license": "MIT",
+	"main": "./index.js",
+	"maintainers": [
+		{
+			"email": "npm@jasonrobinson.info",
+			"name": "bannedinsweden"
+		},
+		{
+			"email": "brnewby602@gmail.com",
+			"name": "bnewby"
+		},
+		{
+			"email": "priyankachavan88@gmail.com",
+			"name": "pchavan"
+		},
+		{
+			"email": "vincent@rancher.com",
+			"name": "vincent99"
+		}
+	],
+	"name": "openstack-wrapper",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kmalinich/node-openstack-wrapper.git"
 	},
-	"dependencies": {
-		"request": "~2"
-	},
-	"devDependencies": {
-		"nodeunit": "~0.9"
-	},
-	"main": "./index.js",
 	"scripts": {
 		"test": "./node_modules/nodeunit/bin/nodeunit ./test"
 	},
-	"maintainers": [
-		{
-			"name": "bannedinsweden",
-			"email": "npm@jasonrobinson.info"
-		},
-		{
-			"name": "bnewby",
-			"email": "brnewby602@gmail.com"
-		},
-		{
-			"name": "pchavan",
-			"email": "priyankachavan88@gmail.com"
-		},
-		{
-			"name": "vincent99",
-			"email": "vincent@rancher.com"
-		}
-	]
+	"version": "2.0.0"
 }
